@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Satisfy&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Satisfy&display=swap');*/
+
+body{
+    height: 100vh;
+    width: 100;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/2.png");
+}
+
+.box{
+  width: 400px;
+  height: 500px;
+  padding: 40px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(241, 238, 238, 0.616) ;
+  text-align: center;
+  border-radius: 40px;
+
+}
+
+.box h1{
+    font-family: 'Satisfy', cursive;
+    font-weight: 100px;
+    font-size: 60px;
+    margin-top: 2%;
+    color: #004AAD;
+
+}
+
+.box h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: -2%;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    color:#004AAD;
+}
+    
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    background-color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif; /*'Barlow', sans-serif;*/
+    font-style: rgb(172, 171, 171);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 400px;
+    height: 45px;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    outline: none;
+}
+
+.support{
+    justify-content: space-between;
+    display: flex;
+    color: #2d59ac;
+}
+
+.remember{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+}
+
+.help a{
+    text-align: right;
+    display: flex;
+    color: #2d59ac;
+    text-decoration: none;
+}
+
+.help a:hover{
+    text-decoration:underline;
+    color: #0644b8;
+}
+
+.box input[type = "submit"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #1D438A;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    height: 45px;
+    width: 400px;
+}
+
+.box input[type = "submit"]:hover{
+    background-color: #2d59ac;
+    cursor: pointer;
+}
+

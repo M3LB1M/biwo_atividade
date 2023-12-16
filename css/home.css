@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Oswald:wght@400;500&family=Ubuntu&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url("../img/1.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+img, iframe, video {
+    max-width: 100%;
+}
+
+.logo {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: #2d59ac;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 35px;
+    padding-top: 10px;
+   
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.911);
+    position: sticky;
+    height: 65px;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: -50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: normal;
+    padding: 0px 20px 0px 60px;
+    color: #004AAD;
+    font-size: 20px; 
+    transition: all 0.8s;
+    text-align: center;
+    padding-right: 60px; 
+    margin: 11px;
+
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #2d5aac;
+    text-align: center;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    justify-content:center;
+}
+
+.section-home {
+    margin-left: 35px;
+    margin-top: 60px;
+    display: flex;
+}
+
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    color: #012758;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+   
+}
+
+h3 {
+    margin-top: -100px;
+    font-family: 'Heebo';
+    font-size:20px;
+    margin-left: 20px;
+    color: #012758;
+}
+
+section p{
+    text-align:justify;
+    font-family: 'Heebo';
+    font-size: 22px;
+    margin-left: 50px;
+    color:#012758;
+    display: relative;
+}
+
+#comeco {
+    font-family:'Heebo';
+    font-size: 24px;
+    color: #012758;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#comeco:hover {
+    color: aliceblue;
+    transition-duration: 0.8s;
+}
+
+section .section-three{
+    font-family: 'Heebo';
+    font-size: 15px;
+}
+
+section .section-three ul {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+ 
+}
+
+section .section-three a{
+    text-decoration: none;
+    color: #012758;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 10px 15px 15px;
+    padding: auto;
+    width: 250px;
+    display: flex;
+    padding: 10px 10px 10px;
+    display:inline-block;
+    text-align: center;
+    margin-left: -160vh;
+    transition: .5s;
+    position:relative;
+}
+
+section .section-three .container{
+    text-align: center;
+} 
+
+section .section-three a:hover{
+    transition: .5s;
+    background-color: #004AAD;
+    color:#fff;
+    width: 300px;
+    
+}
+
+.conteudo{
+    display: relative;
+    margin-top: -10vh;
+    min-width:max-content;
+    min-height: max-content;
+    overflow: hidden;
+}
+
+.fa-linkedin {
+display: relative;
+margin-top: -5px;
+align-items: center;
+padding: 10px 0;
+
+}
+

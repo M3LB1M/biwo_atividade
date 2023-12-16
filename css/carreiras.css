@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Oswald:wght@400;500&family=Ubuntu&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url("../img/2.png");
+    background-size: cover;
+    height:100vh;
+}
+
+img, iframe, video {
+    max-width: 100%;
+}
+
+.logo {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: #2d59ac;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 35px;
+    padding-top: 10px;
+   
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.911);
+    position: sticky;
+    height: 65px;
+    padding: 15px;
+  
+}
+
+nav ul {
+    list-style: none;
+    margin: -50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: normal;
+    padding: 0px 20px 0px 60px;
+    color: #004AAD;
+    font-size: 20px; 
+    transition: all 0.8s;
+    text-align: center;
+    padding-right: 60px; 
+    margin: 11px;
+    border-radius: 10px;
+
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #2d5aac;
+    text-align: center;
+    border-radius: 10px;    
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    justify-content:center;
+}
+
+
+.section-carreiras {
+    margin-left: 20px;
+} 
+
+h1 {
+    font-family: 'Heebo';
+    font-size: 40px;
+    color: #012758;
+    text-align:right;
+    font-weight: normal;
+    margin-top: 5%;
+    display:flex;
+    margin-left: 61%;
+}
+
+ p {
+    font-family: 'Heebo';
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 50%;
+    padding-left: 88px;
+    font-size: 16px;
+    color:#042b72;
+    font-weight: normal;
+    display: flex;
+}
+
+.content {
+    display:inline-block;
+    margin-inline: 8%;
+
+}
+
+dotlottie-player{
+    width: 800px;
+    margin-top: -43%;
+    margin-left: -10px;
+}
+
+

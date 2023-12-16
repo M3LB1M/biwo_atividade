@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="../css/Contato.css" />
+  </head>
+  <body>
+
+    <header id="header">
+        <a  class="logo">BiWo</a>
+        <div class="container">
+            <div class="flex">
+                <nav>
+                    <ul>
+                      <li><a href="../html/home.html">Home</a></li>
+                      <li><a href="../html/carreiras.html">Carreiras</a></li>
+                      <li><a href="../html/profissoes.html">Profissões</a></li>
+                      <li><a href="../html/sobre.html">Sobre nós</a></li>
+                      <li class="menu-item"><a href="../html/Contato.html">Contate-nos</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    
+
+    <center><form action="https://formsubmit.co/bela.mi.jas@gmail.com"  method="POST"   class="form">
+      <h1> Deixe sua opinião  </h1>
+      
+       <label for="name"> Possui alguma sugestão para melhorar o site?</label>
+       <input type="text" name="name" id="name"  placeholder="Conte aqui!" required />
+       <label for="message">Deixe Sua Opinião aqui</label>
+       <textarea name="message" id="message"   placeholder="Opinião aqui!"   required></textarea>
+       <input type="hidden" name="_captcha"  value="false" />
+       <input type="hidden" name="_next"    value="http://127.0.0.1:5500/html/Obrigado.html" />
+       <button type="submit">Enviar</button>
+     </form></center>
+    
+    
+  </body>
+</html>
